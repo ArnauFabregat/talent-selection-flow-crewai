@@ -20,6 +20,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+os_multiagent_system.egg-info/
 
 # ruff
 .ruff_cache/
@@ -42,3 +43,10 @@ launch.json
 
 # Chainlit
 .files/
+
+# pytest
+.coverage
+.pytest_cache/
+
+# Validation temp files
+temp_*.py

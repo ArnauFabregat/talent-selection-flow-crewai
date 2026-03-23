@@ -49,7 +49,7 @@ You can execute the complete multi‑agent workflow programmatically using the `
 
 ```python
 from IPython.display import Markdown, display
-from src.talent_selection_flow.flow import TalentSelectionFlow
+from talentflow.talent_selection_flow.flow import TalentSelectionFlow
 
 job_example = """
 # JOB POSTING: Senior Backend Engineer (AI Systems)
