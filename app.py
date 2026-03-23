@@ -12,8 +12,8 @@ from typing import Any
 import chainlit as cl
 import pymupdf4llm
 
-from src.talent_selection_flow.crews.hr_consultant_crew.crew import HRConsultingCrew
-from src.talent_selection_flow.flow import TalentSelectionFlow
+from talentflow.talent_selection_flow.crews.hr_consultant_crew.crew import HRConsultingCrew
+from talentflow.talent_selection_flow.flow import TalentSelectionFlow
 
 
 def get_actions() -> list[Any]:

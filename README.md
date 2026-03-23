@@ -49,7 +49,7 @@ You can execute the complete multi‑agent workflow programmatically using the `
 
 ```python
 from IPython.display import Markdown, display
-from src.talent_selection_flow.flow import TalentSelectionFlow
+from talentflow.talent_selection_flow.flow import TalentSelectionFlow
 
 job_example = """
 # JOB POSTING: Senior Backend Engineer (AI Systems)
@@ -180,6 +180,8 @@ Open a terminal in VSCode and execute the following command:
 * `uv sync`
 
 ## TODO
+- Add reranker transformer after vector db retrieval to enhance similarity scoring.
+- Optimize the user prompt template for task expected_output
 - Add top_k from input optional
 - Add unit tests
 - Add max_iter and max_rpm to control rate limits in agents
@@ -191,3 +193,4 @@ Open a terminal in VSCode and execute the following command:
     - langchain: https://docs.langchain.com/oss/python/integrations/tools
 
 - Crewai examples: https://docs.crewai.com/en/examples/example
+
